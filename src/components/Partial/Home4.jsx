@@ -12,26 +12,26 @@ function Home4() {
 
   return (
 
-    <section class="page-section bg-light" id="portfolio">
+    <section class="guest-section bg-light" id="portfolio">
         <Box class="container">
             <Box class="text-center">
-                <h2 class="section-heading text-uppercase">Portfolio</h2>
+                <h2 class="section-heading text-uppercase">Our Guest</h2>
                 <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
             </Box>
-            <Box class="row">
+            <div class="Guest">
 
-                {Guest.map((Guest_list) => (
-                                <Guest_Entry
-                                  id={Guest_list.id}
-                                  key={Guest_list.id}
-                                  img={Guest_list.img}
-                                  emoji={Guest_list.emoji}
-                                  name={Guest_list.name}
-                                  description={Guest_list.meaning}
-                                />
-        ))}
+            <div class="guest guest1"></div>
+            <div class="guest2"></div>
+            <div class="guest3"></div>
+            <div class="guest4"></div>
+            <div class="guest5"></div>
+            <div class="guest6"></div>
+            <div class="guest7"></div>
+            </div>
+
         </Box>
-        </Box>
+
+        
         </section>
   );
 }

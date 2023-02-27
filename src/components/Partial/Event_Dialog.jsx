@@ -14,6 +14,7 @@ import { blue } from '@mui/material/colors';
 import Divider from '@mui/material/Divider';
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
+import Register from '../Register';
 
 
 const emails = ['username@gmail.com', 'user02@gmail.com'];
@@ -30,39 +31,7 @@ function SimpleDialog(props) {
   };
   return (
     <Dialog onClose={handleClose} open={open}>
-      <DialogTitle>
-      <Grid container alignItems="center">
-        <Grid item xs>
-          <Typography gutterBottom variant="h4" component="div">
-            Toothbrush
-          </Typography>
-        </Grid>
-        <Grid item>
-          <Typography gutterBottom variant="h6" component="div">
-            $4.50
-          </Typography>
-        </Grid>
-      </Grid>
-      </DialogTitle>
-      <Box sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}>
-      <Box sx={{ my: 3, mx: 2 }}>
-
-        <Typography color="text.secondary" variant="body2">
-          Pinstriped cornflower blue cotton blouse takes you on a walk to the park or
-          just down the hall.
-        </Typography>
-      </Box>
-      <Divider variant="middle" />
-      <Box sx={{ m: 2 }}>
-        <Typography gutterBottom variant="body1">
-          Select type
-        </Typography>
-
-      </Box>
-      <Box sx={{ mt: 3, ml: 1, mb: 1 }}>
-        <Button variant="outlined" color="error">Register</Button>
-      </Box>
-    </Box>
+      <Register />
     </Dialog>
   );
 }
@@ -90,7 +59,7 @@ export default function Dialog_(props) {
   return (
     <div>
       <Button variant="outlined" onClick={handleClickOpen}>
-        View Details
+        View More
       </Button>
       <SimpleDialog
         selectedValue={selectedValue}

@@ -5,7 +5,7 @@
 */
 //
 // Scripts
-// 
+//
 
 window.addEventListener('DOMContentLoaded', event => {
 
@@ -23,7 +23,7 @@ window.addEventListener('DOMContentLoaded', event => {
 
     };
 
-    // Shrink the navbar 
+    // Shrink the navbar
     navbarShrink();
 
     // Shrink the navbar when page is scrolled
@@ -51,4 +51,12 @@ window.addEventListener('DOMContentLoaded', event => {
         });
     });
 
+});
+
+
+// Guest
+// console.clear();
+$(".option").click(function () {
+  $(".option").removeClass("active");
+  $(this).addClass("active");
 });

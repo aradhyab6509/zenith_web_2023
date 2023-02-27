@@ -9,14 +9,13 @@ import Box from '@mui/material/Box';
 function Events() {
 
   return (
-    <Box>
-    <Box class="bg-dark demo">
+    <Box class="bg-dark">
+    <Box class="demo">
     <Box class="text-center">
         <h2 class="events_team_heading text-uppercase">Events</h2>
     </Box>
     </Box>
     <Box class="container">
-
 
     <Box class="row">
     {Events_data.map((Events_data) => (

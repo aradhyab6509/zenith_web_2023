@@ -24,7 +24,7 @@ if (spinner) {
   return (
 
     <Box>
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router>
       <Header />
             <Routes>
               <Route path="/" element={<Home />} />

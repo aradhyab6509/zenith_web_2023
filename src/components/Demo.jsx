@@ -22,7 +22,7 @@ if (spinner) {
 
 
   return (
-    !loading && (
+    !loading || (
     <Box>
       <Router>
       <Header />

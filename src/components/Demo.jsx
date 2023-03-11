@@ -24,7 +24,7 @@ if (spinner) {
   return (
 
     <Box>
-      <Router>
+      <Router basename='/zenith_web_2023'>
       <Header />
             <Routes>
               <Route path="/" element={<Home />} />

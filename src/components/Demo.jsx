@@ -27,10 +27,10 @@ if (spinner) {
       <Router>
       <Header />
             <Routes>
-              <Route path="/zenith_web_2023" element={<Home />} />
-              <Route path="/zenith_web_2023/Events" element={<Events />} />
-              <Route path="/zenith_web_2023/Team" element={<Team />} />
-              <Route path="/zenith_web_2023/Register" element={<Register />} />
+              <Route path="/" element={<Home />} />
+              <Route path="/Events" element={<Events />} />
+              <Route path="/Team" element={<Team />} />
+              <Route path="/Register" element={<Register />} />
               <Route path="/*" element={<NotFound />} />
             </Routes>
             <Footer />

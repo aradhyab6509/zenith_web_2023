@@ -22,9 +22,9 @@ if (spinner) {
 
 
   return (
-    !loading && (
+!loading && (
     <Box>
-      <Router>
+      <Router basename='/zenith_web_2023'>
       <Header />
             <Routes>
               <Route path="/" element={<Home />} />
@@ -37,7 +37,6 @@ if (spinner) {
           </Router>
     </Box>
   )
-
 
   );
 }

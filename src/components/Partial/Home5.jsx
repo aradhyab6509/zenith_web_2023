@@ -12,7 +12,7 @@ function Home5() {
             </Box>
             <ul className="timeline">
                 <li>
-                    <Box className="timeline-image"><img className="rounded-circle img-fluid" src="assets/img/Feedback/director.jpeg" alt="..." /></Box>
+                    <Box className="timeline-image"><img className="rounded-circle img-fluid" src="zenith_web_2023/assets/img/Feedback/director.jpeg" alt="..." /></Box>
                     <Box className="timeline-panel">
                         <Box className="timeline-heading text-white">
                             <h4>Dr. Yashwant V. Joshi</h4>
@@ -22,7 +22,7 @@ function Home5() {
                     </Box>
                 </li>
                 <li className="timeline-inverted">
-                    <Box className="timeline-image"><img className="rounded-circle img-fluid" src="assets/img/Feedback/dean.png" alt="..." /></Box>
+                    <Box className="timeline-image"><img className="rounded-circle img-fluid" src="zenith_web_2023/assets/img/Feedback/dean.png" alt="..." /></Box>
                     <Box className="timeline-panel">
                         <Box className="timeline-heading text-white">
                             <h4>Dr. A. R. Patil</h4>
@@ -32,7 +32,7 @@ function Home5() {
                     </Box>
                 </li>
                 <li>
-                    <Box className="timeline-image"><img className="rounded-circle img-fluid"src="assets/img/Feedback/kadam.jpg" alt="..." /></Box>
+                    <Box className="timeline-image"><img className="rounded-circle img-fluid"src="zenith_web_2023/assets/img/Feedback/kadam.jpg" alt="..." /></Box>
                     <Box className="timeline-panel">
                         <Box className="timeline-heading text-white">
                             <h4>Prof. Bhaskar Kadam</h4>
@@ -42,7 +42,7 @@ function Home5() {
                     </Box>
                 </li>
                 <li className="timeline-inverted">
-                    <Box className="timeline-image"><img className="rounded-circle img-fluid" src="assets/img/Feedback/reddy.png" alt="..." /></Box>
+                    <Box className="timeline-image"><img className="rounded-circle img-fluid" src="zenith_web_2023/assets/img/Feedback/reddy.png" alt="..." /></Box>
                     <Box className="timeline-panel">
                         <Box className="timeline-heading text-white">
                             <h4>Late Prof. R. B. Reddy</h4>

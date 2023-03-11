@@ -16,10 +16,10 @@ function Header() {
             </button>
             <Box className="collapse navbar-collapse" id="navbarResponsive">
                 <ul className="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                    <li className="nav-item"><a className="nav-link" href="/">Home</a></li>
-                    <li className="nav-item"><a className="nav-link" href="/Events">Events</a></li>
-                    <li className="nav-item"><a className="nav-link" href="/Team">Our Team</a></li>
-                    <li className="nav-item"><a className="btn btn-outline-warning text-uppercase" href="/Register">Register</a></li>
+                    <li className="nav-item"><a className="nav-link" href="/zenith_web_2023">Home</a></li>
+                    <li className="nav-item"><a className="nav-link" href="/zenith_web_2023/Events">Events</a></li>
+                    <li className="nav-item"><a className="nav-link" href="/zenith_web_2023/Team">Our Team</a></li>
+                    <li className="nav-item"><a className="btn btn-outline-warning text-uppercase" href="/zenith_web_2023/Register">Register</a></li>
                 </ul>
             </Box>
         </Box>

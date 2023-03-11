@@ -7,7 +7,7 @@ function Home1() {
     <header className="masthead">
     <Box className="coverpage-text">
     <Box className="masthead-heading">
-      <img className="Zenith_img" src="../assets/img/Zenith.png" />
+      <img className="Zenith_img" src="../zenith_web_2023/assets/img/Zenith.png" />
       <h3>1<sup>st</sup>, 2<sup>nd</sup> & 3<sup>rd</sup> of April'23</h3>
         <a className="btn btn-warning text-uppercase coverpage-btn" href="../assets/img/Brochure.pdf" download="Brochure.pdf">View Brochure</a>
     </Box>

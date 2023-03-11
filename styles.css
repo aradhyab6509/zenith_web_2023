@@ -11973,7 +11973,11 @@ img:hover{
 
 @media (max-width: 575.98px){
 #more {display: none;}
-
+.events_team_heading{
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+}
 }
 
 @media (min-width: 575.98px){

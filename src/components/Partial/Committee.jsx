@@ -8,14 +8,18 @@ import Card from '@mui/material/Card';
 //Heade
 function Head() {
   return (
-  <Card class="committee bg-dark">
-  <Box class="row">
+  <Card className="committee bg-dark">
+  <Box className="row">
   {Team.Head.map((Team_data) => (
                   <Team_list.ListOf1
                     key={Team_data.id}
                     img={Team_data.img}
                     name={Team_data.Name}
-                    desi={Team_data.desi} />
+                    desi={Team_data.desi}
+                    ig={Team_data.ig}
+                    mail={Team_data.mail}
+                    phone={Team_data.phone}
+                     />
                   ))}
                   </Box></Card>
   );
@@ -24,16 +28,19 @@ function Head() {
 // Joints
 function Joints() {
   return (
-  <Card class="committee bg-dark">
-  <Box class="col-12 text-center">
-  <h1 class="designation">Student Joints</h1>
+  <Card className="committee bg-dark">
+  <Box className="col-12 text-center">
+  <h1 className="designation">Student Joints</h1>
   </Box>
-  <Box class="row">
+  <Box className="row">
   {Team.Student_joints.map((Team_data) => (
                   <Team_list.ListOf4
                     key={Team_data.id}
                     img={Team_data.img}
                     name={Team_data.Name}
+                    ig={Team_data.ig}
+                    mail={Team_data.mail}
+                    phone={Team_data.phone}
                       />
                   ))}
                   </Box></Card>
@@ -43,16 +50,19 @@ function Joints() {
 // Website Committee
 function Web_team() {
   return (
-  <Card class="committee bg-dark">
-  <Box class="col-12 text-center">
-  <h1 class="designation">Website Main Coordinator</h1>
+  <Card className="committee bg-dark">
+  <Box className="col-12 text-center">
+  <h1 className="designation">Website Main Coordinator</h1>
   </Box>
-  <Box class="row">
+  <Box className="row">
   {Team.Website.map((Team_data) => (
                   <Team_list.ListOf4
                     key={Team_data.id}
                     img={Team_data.img}
                     name={Team_data.Name}
+                    ig={Team_data.ig}
+                    mail={Team_data.mail}
+                    phone={Team_data.phone}
                       />
                   ))}
                   </Box></Card>
@@ -62,16 +72,19 @@ function Web_team() {
 // PRC Committee
 function Prc_team() {
   return (
-  <Card class="committee bg-dark">
-  <Box class="col-12 text-center">
-  <h1 class="designation">PRC Main Coordinator</h1>
+  <Card className="committee bg-dark">
+  <Box className="col-12 text-center">
+  <h1 className="designation">PRC Main Coordinator</h1>
   </Box>
-  <Box class="row">
+  <Box className="row">
   {Team.Prc.map((Team_data) => (
                   <Team_list.ListOf4
                     key={Team_data.id}
                     img={Team_data.img}
                     name={Team_data.Name}
+                    ig={Team_data.ig}
+                    mail={Team_data.mail}
+                    phone={Team_data.phone}
                       />
                   ))}
                   </Box></Card>
@@ -81,16 +94,19 @@ function Prc_team() {
 //Media Committee
 function Media_team() {
   return (
-  <Card class="committee bg-dark">
-  <Box class="col-12 text-center">
-  <h1 class="designation">Media Main Coordinator</h1>
+  <Card className="committee bg-dark">
+  <Box className="col-12 text-center">
+  <h1 className="designation">Media Main Coordinator</h1>
   </Box>
-  <Box class="row">
+  <Box className="row">
   {Team.Media.map((Team_data) => (
                   <Team_list.ListOf2
                     key={Team_data.id}
                     img={Team_data.img}
                     name={Team_data.Name}
+                    ig={Team_data.ig}
+                    mail={Team_data.mail}
+                    phone={Team_data.phone}
                       />
                   ))}
                   </Box></Card>
@@ -100,16 +116,19 @@ function Media_team() {
 //Decoration Committee
 function Decoration_team() {
   return (
-  <Card class="committee bg-dark">
-  <Box class="col-12 text-center">
-  <h1 class="designation">Decoration Main Coordinator</h1>
+  <Card className="committee bg-dark">
+  <Box className="col-12 text-center">
+  <h1 className="designation">Decoration Main Coordinator</h1>
   </Box>
-  <Box class="row">
+  <Box className="row">
   {Team.Decoration.map((Team_data) => (
-                  <Team_list.ListOf3
+                  <Team_list.ListOf2
                     key={Team_data.id}
                     img={Team_data.img}
                     name={Team_data.Name}
+                    ig={Team_data.ig}
+                    mail={Team_data.mail}
+                    phone={Team_data.phone}
                       />
                   ))}
                   </Box></Card>
@@ -119,16 +138,19 @@ function Decoration_team() {
 //GnS Committee
 function GnS_team() {
   return (
-  <Card class="committee bg-dark">
-  <Box class="col-12 text-center">
-  <h1 class="designation">Ground & Site Main Coordinator</h1>
+  <Card className="committee bg-dark">
+  <Box className="col-12 text-center">
+  <h1 className="designation">Ground & Site Main Coordinator</h1>
   </Box>
-  <Box class="row">
+  <Box className="row">
   {Team.GnS.map((Team_data) => (
                   <Team_list.ListOf3
                     key={Team_data.id}
                     img={Team_data.img}
                     name={Team_data.Name}
+                    ig={Team_data.ig}
+                    mail={Team_data.mail}
+                    phone={Team_data.phone}
                       />
                   ))}
                   </Box></Card>
@@ -138,16 +160,19 @@ function GnS_team() {
 //FnS Committee
 function FnS_team() {
   return (
-  <Card class="committee bg-dark">
-  <Box class="col-12 text-center">
-  <h1 class="designation">Food & Site Main Coordinator</h1>
+  <Card className="committee bg-dark">
+  <Box className="col-12 text-center">
+  <h1 className="designation">Food & Site Main Coordinator</h1>
   </Box>
-  <Box class="row">
+  <Box className="row">
   {Team.FnS.map((Team_data) => (
                   <Team_list.ListOf2
                     key={Team_data.id}
                     img={Team_data.img}
                     name={Team_data.Name}
+                    ig={Team_data.ig}
+                    mail={Team_data.mail}
+                    phone={Team_data.phone}
                       />
                   ))}
                   </Box></Card>
@@ -157,16 +182,19 @@ function FnS_team() {
 //Sponsorship Committee
 function Sponsorship_team() {
   return (
-  <Card class="committee bg-dark">
-  <Box class="col-12 text-center">
-  <h1 class="designation">Sponsorship Main Coordinator</h1>
+  <Card className="committee bg-dark">
+  <Box className="col-12 text-center">
+  <h1 className="designation">Sponsorship Main Coordinator</h1>
   </Box>
-  <Box class="row">
+  <Box className="row">
   {Team.Sponsorship.map((Team_data) => (
                   <Team_list.ListOf2
                     key={Team_data.id}
                     img={Team_data.img}
                     name={Team_data.Name}
+                    ig={Team_data.ig}
+                    mail={Team_data.mail}
+                    phone={Team_data.phone}
                       />
                   ))}
                   </Box></Card>
@@ -176,16 +204,19 @@ function Sponsorship_team() {
 //Finance Committee
 function Finance_team() {
   return (
-  <Card class="committee bg-dark">
-  <Box class="col-12 text-center">
-  <h1 class="designation">Finance Main Coordinator</h1>
+  <Card className="committee bg-dark">
+  <Box className="col-12 text-center">
+  <h1 className="designation">Finance Main Coordinator</h1>
   </Box>
-  <Box class="row">
+  <Box className="row">
   {Team.Finance.map((Team_data) => (
-                  <Team_list.ListOf2
+                  <Team_list.ListOf1
                     key={Team_data.id}
                     img={Team_data.img}
                     name={Team_data.Name}
+                    ig={Team_data.ig}
+                    mail={Team_data.mail}
+                    phone={Team_data.phone}
                       />
                   ))}
                   </Box></Card>

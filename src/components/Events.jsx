@@ -9,21 +9,26 @@ import Box from '@mui/material/Box';
 function Events() {
 
   return (
-    <Box class="bg-dark">
-    <Box class="demo">
-    <Box class="text-center">
-        <h2 class="events_team_heading text-uppercase">Events</h2>
+    <Box className="bg-dark">
+    <Box className="demo">
+    <Box className="text-center">
+        <h2 className="events_team_heading text-uppercase">Events</h2>
     </Box>
     </Box>
-    <Box class="container">
+    <Box className="container">
 
-    <Box class="row">
+    <Box className=" event_main">
     {Events_data.map((Events_data) => (
                     <Events_list
                       key={Events_data.id}
                       img={Events_data.img}
+                      image={Events_data.image}
                       name={Events_data.Name}
-                      price={Events_data.price} />
+                      Price1={Events_data.Price1}
+                      Price2={Events_data.Price2}
+                      rules={Events_data.rules}
+                      note={Events_data.note}
+                      Contact={Events_data.Contact}/>
                     ))}
     </Box>
     </Box>

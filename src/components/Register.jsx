@@ -12,10 +12,10 @@ import Grid from '@mui/material/Grid';
 export default function Register() {
 
   return (
-    <Box class="text-center bg-dark register">
-    <div class="conteudo">
-        <div class="relogio">
-            <h4 class="js-data">Coming Soon</h4>
+    <Box className="text-center bg-dark register">
+    <div className="conteudo">
+        <div className="relogio">
+            <h4 className="js-data">Coming Soon</h4>
         </div>
         <span></span>
         <span></span>

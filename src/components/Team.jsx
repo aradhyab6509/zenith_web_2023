@@ -7,53 +7,54 @@ import Box from '@mui/material/Box';
 
 function Team() {
   return(
-    <Box id="team" class="bg-dark">
-    <Box class="bg-dark demo">
-    <Box class="text-center">
-        <h2 class="events_team_heading text-uppercase">Our Amazing Team</h2>
+    <Box id="team" className="bg-dark">
+    <Box className="bg-dark demo">
+    <Box className="text-center">
+        <h2 className="events_team_heading text-uppercase">Our Amazing Team</h2>
     </Box>
     </Box>
 
-      <Box class="container">
-      <Box class="row">
+      <Box className="container">
+      <Box className="row">
 
-          <Box class="">
+          <Box className="">
           <Committee.Head />
           </Box>
 
-            <Box class="">
+            <Box className="">
             <Committee.Joints />
             </Box>
 
-            <Box class="">
+            <Box className="">
             <Committee.Web_team />
             </Box>
 
-            <Box class="">
+            <Box className="">
             <Committee.Prc_team />
             </Box>
 
-            <Box class="">
-            <Committee.Decoration_team />
-            </Box>
-
-            <Box class="">
+            <Box className="">
             <Committee.GnS_team />
             </Box>
 
-            <Box class="">
+            <Box className="">
             <Committee.Media_team />
             </Box>
 
-            <Box class="">
+            <Box className="">
+            <Committee.Decoration_team />
+            </Box>
+
+            <Box className="">
             <Committee.FnS_team />
             </Box>
 
-            <Box class="">
+            <Box className="">
             <Committee.Sponsorship_team />
             </Box>
 
-            <Box class="">
+
+            <Box className="">
             <Committee.Finance_team />
             </Box>
 

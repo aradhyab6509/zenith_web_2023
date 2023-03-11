@@ -9,30 +9,24 @@ import Box from '@mui/material/Box';
 
 function Home4() {
 
-
   return (
 
-    <section class="guest-section bg-light" id="portfolio">
-        <Box class="container">
-            <Box class="text-center">
-                <h2 class="section-heading text-uppercase">Our Guest</h2>
-                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-            </Box>
-            <div class="Guest">
-
-            <div class="guest guest1"></div>
-            <div class="guest2"></div>
-            <div class="guest3"></div>
-            <div class="guest4"></div>
-            <div class="guest5"></div>
-            <div class="guest6"></div>
-            <div class="guest7"></div>
-            </div>
-
-        </Box>
-
-        
-        </section>
+    <Box className="page-section guest_main">
+    <Box className="text-center">
+        <h2 className="section-heading text-white">Our Guest</h2>
+    </Box>
+    <Box className="guest_container">
+      {Guest.map((Guest_data) => (
+                    <Guest_Entry
+                      key={Guest_data.id}
+                      img={Guest_data.img}
+                      name={Guest_data.name}
+                      desi={Guest_data.desi}
+                      year={Guest_data.year}
+                       />
+                    ))}
+    </Box>
+  </Box>
   );
 }
 

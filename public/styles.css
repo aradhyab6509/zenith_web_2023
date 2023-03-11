@@ -1,15 +1,4 @@
-@charset "UTF-8";
-/*!
-* Start Bootstrap - Agency v7.0.11 (https://startbootstrap.com/theme/agency)
-* Copyright 2013-2022 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-agency/blob/master/LICENSE)
-*/
-/*!
- * Bootstrap v5.1.3 (https://getbootstrap.com/)
- * Copyright 2011-2021 The Bootstrap Authors
- * Copyright 2011-2021 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100;1,200;1,300;1,400;1,500;1,700;1,900&display=swap');
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -56,13 +45,14 @@
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
-  --bs-body-font-family: Roboto Slab, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  --bs-body-font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
   --bs-body-color: #212529;
   --bs-body-bg: #fff;
 }
+
 
 .logo{
   width: 50%;
@@ -82,15 +72,8 @@
 
 body {
   margin: 0;
-  font-family: var(--bs-body-font-family);
-  font-size: var(--bs-body-font-size);
-  font-weight: var(--bs-body-font-weight);
-  line-height: var(--bs-body-line-height);
-  color: var(--bs-body-color);
-  text-align: var(--bs-body-text-align);
-  background-color: var(--bs-body-bg);
-  -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  font-family:
+
 }
 
 hr {
@@ -442,14 +425,7 @@ legend + * {
   -webkit-appearance: textfield;
 }
 
-/* rtl:raw:
-[type="tel"],
-[type="url"],
-[type="email"],
-[type="number"] {
-  direction: ltr;
-}
-*/
+
 ::-webkit-search-decoration {
   -webkit-appearance: none;
 }
@@ -7852,6 +7828,7 @@ textarea.form-control-lg {
 .bg-dark {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+
 }
 
 .bg-black {
@@ -11416,8 +11393,8 @@ p {
   }
 }
 header.masthead {
-  padding-top: 10.5rem;
-  padding-bottom: 6rem;
+  padding-top: 8rem;
+  height: 100vh;
   text-align: center;
   color: #fff;
   background: url("../assets/img/header-bg.jpg");
@@ -11425,7 +11402,9 @@ header.masthead {
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
+  min-height: 720px;
 }
+
 
 
 header.masthead .masthead-subheading {
@@ -11443,11 +11422,23 @@ header.masthead .masthead-heading {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-@media (min-width: 768px) {
-  header.masthead {
-    padding-top: 17rem;
-    padding-bottom: 12.5rem;
+
+.Zenith_img{
+  width: 20rem;
+}
+
+@media (max-width: 768px) {
+  .coverpage-text{
+    margin-top: 4rem;
   }
+}
+
+
+@media (min-width: 768px) {
+  .Zenith_img{
+    width: 40rem;
+  }
+
   header.masthead .masthead-subheading {
     font-size: 2.25rem;
     font-style: italic;
@@ -11458,8 +11449,8 @@ header.masthead .masthead-heading {
     font-size: 4.5rem;
     font-weight: 700;
     line-height: 4.5rem;
-    margin-bottom: 4rem;
   }
+
 }
 #portfolio .portfolio-item {
   max-width: 26rem;
@@ -11779,15 +11770,25 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 .Home2 {
-  margin: -3rem auto 1rem;
-    padding: 3rem;
+  margin: 2rem auto 1rem;
+  color: white;
+  width: 90%;
+    padding: 2rem;
     border-radius: 1rem;
   box-shadow: 4px 3px 8px 1px #595260;
-  text-align: center !important;
+  text-align: justify !important;
+
+  /* background-color: #161616;
+  background-image: -webkit-linear-gradient(65deg, #A683E3 50%, #E4E9FD 50%); */
 }
 
+.home2_h2{
+  font-size: 3rem;
+  color: #ffc800;
+  text-align: center;
+}
 .fa-stack:hover {
-  color: rgba(255, 200, 0, 0.9);;
+  color: rgba(255, 200, 0, 0.9);
 }
 
 .events_team_heading{
@@ -11961,98 +11962,23 @@ img:hover{
     transform:scale(1.05);
 }
 
-.guest1{
-  background-image: url("../assets/img/portfolio/1.jpg");
-  }
-.guest2{
-  background-image: url("../assets/img/portfolio/2.jpg");
-}
-.guest3{
-  background-image: url("../assets/img/portfolio/3.jpg");
-}
-.guest4{
-  background-image: url("../assets/img/portfolio/4.jpg");
-}
-.guest5{
-  background-image: url("../assets/img/portfolio/5.jpg");
-}
-.guest6{
-  background-image: url("../assets/img/portfolio/1.jpg");
-}
-.guest7{
-  background-image: url("../assets/img/portfolio/2.jpg");
-}
 
-.Guest {
-display: flex;
-height: 20rem;
-gap: 1rem
-}
-
-@media (max-width: 575.98px) {
-  .Guest {
-  height: 10rem;
-  }
-}
-
-.guest-section{
-  padding: 3rem;
-  font-size: 2.5rem;
-  margin-top: 0;
-  margin-bottom: 1rem;
-  font-size: 1rem;
-  font-weight: 400;
-  font-style: italic;
-  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  margin-bottom: 4rem;
-}
-
-@media (max-width: 575.98px) {
-  .guest-section{
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-
-}
-
-@media (max-width: 575.98px){
-  .Guest > div:hover {
-    flex: 50;
-  }
-}
-
-@media (min-width: 575.98px){
-.Guest > div:hover {
-flex: 5;
-}
-}
-
-.Guest > div {
-  flex: 1;
-  border-radius: 1rem;
-   background-size: auto 100%;
-   background-position: center;
-   background-repeat: no-repeat;
-   transition: all .8s cubic-bezier(.25, .4, .45, 1.4); }
-
-
-
-
-.Guest > img {
-  flex: 1;
-  border-radius: 1rem;
-   background-size: auto 150%;
-   background-position: center;
-   background-repeat: no-repeat;
-   transition: all .8s cubic-bezier(.25, .4, .45, 1.4); }
-
-
-.Guest > img:hover {
-flex: 5;
-}
 
 .register {
   padding: 10rem 0;
   display: flex;
   justify-content: center;
+}
+
+
+@media (max-width: 575.98px){
+#more {display: none;}
+
+}
+
+@media (min-width: 575.98px){
+#more {display: inline;}
+#dots {display: none;}
+#myBtn {visibility: collapse;}
+
 }

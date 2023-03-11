@@ -19,8 +19,8 @@ import Register from '../Register';
 
 const emails = ['username@gmail.com', 'user02@gmail.com'];
 
-function SimpleDialog(props) {
-  const { onClose, selectedValue, open } = props;
+function SimpleDialog(data) {
+  const { onClose, selectedValue, open } = data;
 
   const handleClose = () => {
     onClose(selectedValue);
@@ -31,7 +31,22 @@ function SimpleDialog(props) {
   };
   return (
     <Dialog onClose={handleClose} open={open}>
-      <Register />
+      <Box className="dialog">
+        <div className="Dialog_heading"><h2>{data.name}</h2></div>
+        <hr className="Dialog_hr" />
+        <div className="Dialog_div"><b>{data.price1}</b></div>
+        <div className="Dialog_div"><b>{data.price2}</b></div>
+        <hr className="Dialog_hr" />
+        <div className="Dialog_div"><b>Rules: </b>{data.rules}</div>
+        <div className="Dialog_div"><b>*</b>{data.note}</div>
+        <hr className="Dialog_hr" />
+        <div className="Dialog_div"><b>Contact: </b>{data.Contact}</div>
+        <div className="Dialog_heading">
+          <Button variant="contained" color="error" href="/Register">
+            Register
+          </Button><
+        /div>
+      </Box>
     </Dialog>
   );
 }
@@ -42,10 +57,9 @@ SimpleDialog.propTypes = {
   selectedValue: PropTypes.string.isRequired,
 };
 
-export default function Dialog_(props) {
+export default function Dialog_(data) {
   const [open, setOpen] = React.useState(false);
   const [selectedValue, setSelectedValue] = React.useState(emails[1]);
-  console.log(props.img);
 
   const handleClickOpen = () => {
     setOpen(true);
@@ -65,6 +79,13 @@ export default function Dialog_(props) {
         selectedValue={selectedValue}
         open={open}
         onClose={handleClose}
+        price1={data.price1}
+        price2={data.price2}
+        rules={data.rules}
+        image={data.image}
+        name={data.name}
+        note={data.note}
+        Contact={data.Contact}
       />
     </div>
   );

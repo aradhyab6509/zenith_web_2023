@@ -4,61 +4,61 @@ import Box from '@mui/material/Box';
 
 function Home5() {
   return (
-    <section class="page-section bg-dark" id="about2">
-        <Box class="container">
-            <Box class="text-center">
-                <h2 class="section-heading text-white">About</h2>
-                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+    <section className="page-section bg-dark" id="about2">
+        <Box className="container">
+            <Box className="text-center">
+                <h2 className="section-heading text-white">MENTORS</h2>
+                <br />
             </Box>
-            <ul class="timeline">
+            <ul className="timeline">
                 <li>
-                    <Box class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/1.jpg" alt="..." /></Box>
-                    <Box class="timeline-panel">
-                        <Box class="timeline-heading text-white">
-                            <h4>2009-2011</h4>
-                            <h4 class="subheading">Our Humble Beginnings</h4>
+                    <Box className="timeline-image"><img className="rounded-circle img-fluid" src="assets/img/Feedback/director.jpeg" alt="..." /></Box>
+                    <Box className="timeline-panel">
+                        <Box className="timeline-heading text-white">
+                            <h4>Dr. Yashwant V. Joshi</h4>
+                            <h5 className="subheading">Director, SGGSIE&T</h5>
                         </Box>
-                        <Box class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></Box>
+                        <Box className="timeline-body"><p className="text-muted">Greetings Athletes!! SGGS is a prestigious gov institute in Maharashtra and The state-level sports tournament Zenith has been a crown jewel of the institute since 2016. I send a warm welcome to all the sport enthusiasts in the State to participate in this Zealous and pumped up edition of Zenith.</p></Box>
                     </Box>
                 </li>
-                <li class="timeline-inverted">
-                    <Box class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/2.jpg" alt="..." /></Box>
-                    <Box class="timeline-panel">
-                        <Box class="timeline-heading text-white">
-                            <h4>March 2011</h4>
-                            <h4 class="subheading">An Agency is Born</h4>
+                <li className="timeline-inverted">
+                    <Box className="timeline-image"><img className="rounded-circle img-fluid" src="assets/img/Feedback/dean.png" alt="..." /></Box>
+                    <Box className="timeline-panel">
+                        <Box className="timeline-heading text-white">
+                            <h4>Dr. A. R. Patil</h4>
+                            <h5 className="subheading">Dean (Students Affairs), SGGSIE&T</h5>
                         </Box>
-                        <Box class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></Box>
+                        <Box className="timeline-body"><p className="text-muted">Zenith is a state level sports event organized by the students of SGGSIE&T consisting of various sports like basketball, football, volleyball, etc. various teams from all over the state of Maharashtra compete to Devour the victory. In an all one of the best events in the state, with all the fun and enjoyment for complete 3 days.</p></Box>
                     </Box>
                 </li>
                 <li>
-                    <Box class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/3.jpg" alt="..." /></Box>
-                    <Box class="timeline-panel">
-                        <Box class="timeline-heading text-white">
-                            <h4>December 2015</h4>
-                            <h4 class="subheading">Transition to Full Service</h4>
+                    <Box className="timeline-image"><img className="rounded-circle img-fluid"src="assets/img/Feedback/kadam.jpg" alt="..." /></Box>
+                    <Box className="timeline-panel">
+                        <Box className="timeline-heading text-white">
+                            <h4>Prof. Bhaskar Kadam</h4>
+                            <h5 className="subheading">Sports Incharge, SGGSIE&T</h5>
                         </Box>
-                        <Box class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></Box>
+                        <Box className="timeline-body"><p className="text-muted">As a sports incharge, it's my duty to encourage athletes to praticipate in such events.  This event is bound to enhance your gameplay and team synergy. So teams, get warmed-up and be ready to give it all you got!!</p></Box>
                     </Box>
                 </li>
-                <li class="timeline-inverted">
-                    <Box class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/4.jpg" alt="..." /></Box>
-                    <Box class="timeline-panel">
-                        <Box class="timeline-heading text-white">
-                            <h4>July 2020</h4>
-                            <h4 class="subheading">Phase Two Expansion</h4>
+                <li className="timeline-inverted">
+                    <Box className="timeline-image"><img className="rounded-circle img-fluid" src="assets/img/Feedback/reddy.png" alt="..." /></Box>
+                    <Box className="timeline-panel">
+                        <Box className="timeline-heading text-white">
+                            <h4>Late Prof. R. B. Reddy</h4>
+                            <h5 className="subheading">Former Sports Incharge, SGGSIE&T</h5>
                         </Box>
-                        <Box class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></Box>
+                        <Box className="timeline-body"><p className="text-muted">The previous Sports Incharge of the institute who has helped all the student athletes in their preparation and has set the bar sky high. Under his guidance the sports level of the institute had elevated and SGGS became a force to be reckoned with. We hope to grow under the shadow of your blessings reddy sir😇</p></Box>
                     </Box>
                 </li>
-                <li class="timeline-inverted">
-                    <Box class="timeline-image">
+                <li className="timeline-inverted">
+                    <Box className="timeline-image">
                         <h4>
-                            Be Part
+                            Devour
                             <br />
-                            Of Our
+                            The
                             <br />
-                            Story!
+                            Victory!
                         </h4>
                     </Box>
                 </li>

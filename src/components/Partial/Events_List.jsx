@@ -1,23 +1,27 @@
 import * as React from 'react';
-import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-import Button from '@mui/material/Button';
-import Typography from '@mui/material/Typography';
+
 import Box from '@mui/material/Box';
 import Dialog_ from "./Event_Dialog";
 
 export default function Events_List(data) {
   return (
-    <Box class="col-lg-3 cards">
-    <a class="card css bg-light">
-        <div class="cor__cobertura"></div>
-        <div class="circulo">
+    <Box className="col-lg-3 cards">
+    <a className="card css bg-light">
+        <div className="cor__cobertura"></div>
+        <div className="circulo">
           {data.img}
         </div>
-        <p>{data.name}</p>
-        <Dialog_ img={data.img}/>
+        <h5>{data.name}</h5>
+        <p className="dialog-content">{data.Price1}</p>
+        <p className="dialog-content">{data.Price2}</p>
+        <br />
+        <Dialog_ name={data.name}
+        image={data.image}
+          rules={data.rules}
+          price1={data.Price1}
+          price2={data.Price2}
+          note={data.note}
+          Contact={data.Contact}/>
     </a>
     </Box>
 

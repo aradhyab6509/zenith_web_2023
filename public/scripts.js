@@ -52,11 +52,3 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
-
-
-// Guest
-// console.clear();
-$(".option").click(function () {
-  $(".option").removeClass("active");
-  $(this).addClass("active");
-});

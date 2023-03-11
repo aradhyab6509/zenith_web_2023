@@ -5,10 +5,10 @@ import Box from '@mui/material/Box';
 
 function NotFound() {
   return (
-    <Box class="text-center bg-dark register">
-    <div class="conteudo">
-        <div class="relogio">
-            <h4 class="js-data">Error 404 Page Not Found</h4>
+    <Box className="text-center bg-dark register">
+    <div className="conteudo">
+        <div className="relogio">
+            <h4 className="js-data">Error 404 Page Not Found</h4>
         </div>
         <span></span>
         <span></span>

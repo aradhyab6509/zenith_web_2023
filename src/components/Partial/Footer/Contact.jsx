@@ -1,5 +1,4 @@
 import React from "react";
-import Box from '@mui/material/Box';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import MailOutlinedIcon from '@mui/icons-material/MailOutlined';
 import PlaceOutlinedIcon from '@mui/icons-material/PlaceOutlined';

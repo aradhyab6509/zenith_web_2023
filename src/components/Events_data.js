@@ -4,7 +4,6 @@ import SportsVolleyballTwoToneIcon from '@mui/icons-material/SportsVolleyballTwo
 import SportsKabaddiTwoToneIcon from '@mui/icons-material/SportsKabaddiTwoTone';
 import SportsCricketTwoToneIcon from '@mui/icons-material/SportsCricketTwoTone';
 import SportsHandballTwoToneIcon from '@mui/icons-material/SportsHandballTwoTone';
-import AcUnitIcon from '@mui/icons-material/AcUnit';
 
 const Events_data = [
   // {

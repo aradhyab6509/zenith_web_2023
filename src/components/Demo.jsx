@@ -22,7 +22,7 @@ if (spinner) {
 
 
   return (
-    !loading || (
+
     <Box>
       <Router>
       <Header />
@@ -36,7 +36,7 @@ if (spinner) {
             <Footer />
           </Router>
     </Box>
-  )
+
 
 
   );

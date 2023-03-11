@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./Header";
 import Home from "./Home";
 import Events from "./Events";
@@ -24,7 +24,7 @@ if (spinner) {
   return (
 
     <Box>
-      <Router base='/zenith_web_2023'>
+      <Router basename={process.env.PUBLIC_URL}>
       <Header />
             <Routes>
               <Route path="/" element={<Home />} />

@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/zenith_web_2023/static/js/main.ff8fec17.js",
+    "main.js": "/zenith_web_2023/static/js/main.48d591d2.js",
     "index.html": "/zenith_web_2023/index.html",
-    "main.ff8fec17.js.map": "/zenith_web_2023/static/js/main.ff8fec17.js.map"
+    "main.48d591d2.js.map": "/zenith_web_2023/static/js/main.48d591d2.js.map"
   },
   "entrypoints": [
-    "static/js/main.ff8fec17.js"
+    "static/js/main.48d591d2.js"
   ]
 }
